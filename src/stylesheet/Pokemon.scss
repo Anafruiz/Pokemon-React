@@ -1,0 +1,24 @@
+.typepoke {
+  list-style: none;
+  border: 2px solid rgb(140, 179, 63);
+  margin: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: darkgreen;
+  &:hover {
+    background-color: rgb(115, 235, 115);
+  }
+}
+.name {
+  border: 3px solid rgb(211, 104, 22);
+  border-radius: 30px;
+  padding: 10px;
+  text-transform: capitalize;
+  &:hover {
+    background-color: rgb(226, 179, 60);
+  }
+}

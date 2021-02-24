@@ -1,0 +1,16 @@
+.itemPoke {
+  margin: 20px;
+  border: 6px solid rgb(8, 146, 8);
+  border-radius: 30px;
+  padding: 10px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.containerPok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
