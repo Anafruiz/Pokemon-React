@@ -6,7 +6,9 @@ import PokemonList from "./PokemonList";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { list };
+    this.state = {
+      pokemons: list,
+    };
   }
 
   render() {
@@ -32,7 +34,7 @@ class App extends React.Component {
             />
           </h1>
         </header>
-        <PokemonList pokeitem={list} />
+        <PokemonList pokeitem={this.state.pokemons} />
       </div>
     );
   }
